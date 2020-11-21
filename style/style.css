@@ -1,0 +1,79 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+.banner-wrap{
+	
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('../imagenes/vaga1.jpg');
+	background-size:cover;
+	background-position: center;
+	padding: 150px 0;
+	text-align: center;
+	overflow: hidden;
+
+}
+h1{
+	color: white;
+	font-size: 45px;
+	margin: 0;
+	font-weight: bold;
+}
+.banner-wrap p{
+	color: rgba(255,255,255,.7);
+	font-size: 24px;
+	
+}
+button{
+	background-color: #1A48E3;
+	color: white;
+	padding: 16px 48px;
+	border-radius: 4px;
+	display: inline-block;
+	transition: .3s;
+	font-size: 20px;
+	font-weight: bold;
+}
+.cards-wrap{
+	width: 860px;
+	margin: 60px auto;
+}
+.cards-container{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+
+}
+h2,h3{
+	text-align: center;
+}
+
+
+.card{
+	background: white;
+	box-shadow: 0 0 16px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	padding: 24px;
+	margin: 0px 20px;
+}
+.card img{
+	width: 200px;
+	height: 200px;
+	border-radius: 75px;
+}
+footer{
+	background: #404042;
+	color: white;
+	padding: 15px 50px;
+	
+	bottom: 0;
+	left: 0;
+	right: 0;
+
+}
+@media screen and (min-width: 480px) {
+	.banner-wrap{
+		font-size: 12px;
+		color: #fff;
+		font-size: 2em;
+
+	}
